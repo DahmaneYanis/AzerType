@@ -20,7 +20,7 @@ function setTimer(time){
 
 function updateTimer(){
     console.log("update");
-    if (time > 0) {
+    if (time >= 0) {
         setTimer(time--);
     } else { 
         clearInterval(interval);
